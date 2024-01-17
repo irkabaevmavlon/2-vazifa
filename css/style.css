@@ -1,0 +1,150 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/karla-v31-latin-regular.woff2') format('woff2')
+}
+@font-face {
+    font-display: swap;
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/karla-v31-latin-700.woff2') format('woff2')
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Karla' , sans-serif;
+    background: #e6eff5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 163px 402px 162px 403px;
+}
+.card {
+    width: 635px;
+    height: 475px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #fff;
+    padding-top: 40px;
+}
+.box-1 {
+    width: 635px;
+    height: 176px;
+}
+.box-title {
+    font-weight: 700;
+    font-size: 24px;
+    color: #2ab3b1;
+    letter-spacing: -0.3px;
+    margin: 0px 271px 0px 40px;
+}
+.box-text {
+    font-weight: 700;
+    font-size: 18px;
+    color: #c0df33;
+    letter-spacing: -0.225px;
+}
+.box1 {
+    display: flex;
+    width: 555px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 11px;
+    flex-direction: column;
+    margin: 24px 40px 40px 40px;
+}
+.box-paragreph {
+    color: #9aa7be;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+.box-2 {
+    width: 635px;
+    height: 259px;
+    display: flex;
+    background-color: #2ab3b1;
+}
+.box-chap {
+    width: 318px;
+    height: 259px;
+}
+.box-chap-title {
+    color: #fff;
+    font-style: 18px;
+    font-weight: 700;
+    letter-spacing: -0.225px;
+    margin: 40px 80px 0px 40px;
+}
+.card-narxi {
+    width: 147px;
+    height: 37px;
+    display: flex;
+    justify-content: space-between;
+    gap: 11px;
+    align-items: center;
+    margin: 18px 40px 0px 40px;
+}
+.card-narxi-title {
+    color: #fff;
+    font-style: 32px;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+}
+.card-narxi-month {
+    opacity: 0.5;
+    color: #fff;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+}
+.box-chap-p {
+    color: #fff;
+    line-height: 26px;
+    letter-spacing: -0.2px;
+    margin: 4px 35px 0px 40px;
+}
+.box-chap-footer {
+    width: 237px;
+    height: 48px;
+    background-color: #c0df33;
+    margin: 26px 40px 35px 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+.box-ung {
+    height: 259px;
+    width: 318px;
+    background-color: #2ab3b1;
+    color: #fff;
+}
+.box-ung-title {
+    color: #fff;
+    margin: 40px 40px 0px 40px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.225px;
+}
+.box-ung-footer {
+    margin: 18px 40px 40px 40px;
+    width: 238px;
+    height: 140px;
+    display: flex;
+}
+.box-ung-p {
+    color: #fff;
+    opacity: 0.75;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.175px;
+}
